@@ -36,7 +36,7 @@ public class shoptask {
 	     driver.findElement(By.xpath("//*[@id=\"post-61\"]/div/div[3]/div/div/ul/li[1]/div[2]/a[3]")).click();
 	     Thread.sleep(1000);
 	     js.executeScript("window.scrollBy(0,650)", "");
-	     Thread.sleep(1000);
+
 	 // File scrFile =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	     
 	   //   FileHandler.copy(scrFile, new File("screenshot.png"));
